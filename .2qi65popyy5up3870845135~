@@ -1,0 +1,21 @@
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  createScrollableLength("1300vh"); //any number or "css size" like "300vh" or "10rem"
+  noStroke();
+}
+
+function draw() {
+  background(152);
+
+  if (scrollPosition < 0.5) {
+    const advancement = map(smoothedScrollPosition, 0, 0.5, 0, 1);
+    fill(`hsba(${Math.floor(advancement * 360)},80%,100%,0.5)`);
+    circle(width / 2, height / 2, width * advancement);
+  }
+
+  if (scrollPosition >= 0.5) {
+    const advancement = map(scrollPosition, 0.5, 1, 0, 1);
+    fill(255);
+    circle(width / 2, height / 2, width * advancement);
+  }
+}

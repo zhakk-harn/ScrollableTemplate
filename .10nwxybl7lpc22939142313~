@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 3e0a77dd8f4fd290d5b3293cde08a9ad7bdd1645 valentin dupas <valentin.lc.dupas@gmail.com> 1678381490 +0100	commit (initial): Initial commit
+3e0a77dd8f4fd290d5b3293cde08a9ad7bdd1645 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1678381512 +0100	commit: [needs to test with asset] initial implementation
+7facc7d93e2841add08aafed38512e6be600328d 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1679049818 +0100	checkout: moving from main to gsap
+7facc7d93e2841add08aafed38512e6be600328d 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1679303793 +0100	checkout: moving from gsap to main
+7facc7d93e2841add08aafed38512e6be600328d 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1679303797 +0100	checkout: moving from main to gsap
+7facc7d93e2841add08aafed38512e6be600328d f45c64fa0c11f42abb56f488c3574bb62e63a5ba valentin dupas <valentin.lc.dupas@gmail.com> 1679303810 +0100	commit: [wip] testing
+f45c64fa0c11f42abb56f488c3574bb62e63a5ba 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1679303813 +0100	checkout: moving from gsap to main
+7facc7d93e2841add08aafed38512e6be600328d 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1679303842 +0100	discard: [d813c3df8c1fbabed7bd03b873d679abfbe263ce]
+7facc7d93e2841add08aafed38512e6be600328d 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1679303868 +0100	checkout: moving from main to refining-base
+7facc7d93e2841add08aafed38512e6be600328d 22fe674d666105926341b42d0391827c96a68ac1 valentin dupas <valentin.lc.dupas@gmail.com> 1679331824 +0100	commit: needs cleanup
+22fe674d666105926341b42d0391827c96a68ac1 7facc7d93e2841add08aafed38512e6be600328d valentin dupas <valentin.lc.dupas@gmail.com> 1679331867 +0100	checkout: moving from refining-base to main
+7facc7d93e2841add08aafed38512e6be600328d 22fe674d666105926341b42d0391827c96a68ac1 valentin dupas <valentin.lc.dupas@gmail.com> 1679331871 +0100	Fast forward branch main to branch main
+22fe674d666105926341b42d0391827c96a68ac1 22fe674d666105926341b42d0391827c96a68ac1 valentin dupas <valentin.lc.dupas@gmail.com> 1679331881 +0100	delete_branch: refining-base origin/main [22fe674d666105926341b42d0391827c96a68ac1]
+22fe674d666105926341b42d0391827c96a68ac1 1aef0bf7368edbd4043ebfed708d0ddc660fdd03 valentin dupas <valentin.lc.dupas@gmail.com> 1679403982 +0100	Fast forward branch main to branch main

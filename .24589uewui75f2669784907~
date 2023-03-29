@@ -1,0 +1,27 @@
+let scrollPosition = 0;
+let smoothedScrollPosition = 0;
+
+const body = document.querySelector("body");
+
+windowResized = () => {
+  resizeCanvas(windowWidth, windowHeight);
+};
+
+window.requestAnimationFrame(trackScroll);
+
+function trackScroll(timestamp) {
+  scrollPosition = window.scrollY / (body.clientHeight - window.innerHeight);
+
+  smoothedScrollPosition =
+    smoothedScrollPosition - (smoothedScrollPosition - scrollPosition) * 0.2;
+
+  window.requestAnimationFrame(trackScroll);
+}
+
+function createScrollableLength(height) {
+  if (typeof height == "Number") {
+    height += "px";
+  }
+
+  document.querySelector("span").style.minHeight = height;
+}
